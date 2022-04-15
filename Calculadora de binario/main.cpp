@@ -19,7 +19,7 @@ int binario[11];
         cout <<"CONVERSOR DE NÚMEROS"   << endl;
         cout <<"********************* " << endl;
         cout <<" " << endl;
-        cout <<"ESCOLHA UMA OPÇÁO:" << endl;
+        cout <<"ESCOLHA UMA OPÇÃO:" << endl;
         cout <<" " << endl;
         cout <<"[1 - DECIMAL PAPA BINARIO] " << endl;
         cout <<"[2 - BINÁRIO PARA DECIMAL]" << endl;
