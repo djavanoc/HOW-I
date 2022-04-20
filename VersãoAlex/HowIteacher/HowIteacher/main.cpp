@@ -6,8 +6,7 @@
 //
 
 #include <iostream>
-#include <term.h>
-#include <limits>
+
 #include <locale.h>
 #include <stdlib.h>    //bibliotecas para funcionamento do código
 
