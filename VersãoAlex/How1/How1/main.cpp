@@ -1,12 +1,11 @@
 //
 //  main.cpp
-//  HowIteacher
+//  How1
 //
 //  Created by Thales Fernandes on 15/04/22.
 //
 
 #include <iostream>
-
 #include <locale.h>
 #include <stdlib.h>    //bibliotecas para funcionamento do código
 
@@ -14,6 +13,7 @@ using namespace std;
 
 int main()
 {
+	setlocale(LC_ALL, "Portuguese"); //corrigir acentos
 	int escolha = 0;//declarando variavel chamada escolha
 	bool executa = true;
 	int bin[8]; //definindo um valor inteiro de 8 posições a ser utilizado no calculo decimal [1]

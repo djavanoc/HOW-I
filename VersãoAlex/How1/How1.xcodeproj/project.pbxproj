@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12415D3F280FA1CB001B34AE /* main.cp in Sources */ = {isa = PBXBuildFile; fileRef = 12415D3E280FA1CB001B34AE /* main.cp */; };
 		124B5246280A07A300F38F46 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 124B5245280A07A300F38F46 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,7 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		124B5242280A07A300F38F46 /* HowIteacher */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HowIteacher; sourceTree = BUILT_PRODUCTS_DIR; };
+		12415D3E280FA1CB001B34AE /* main.cp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cp; path = ../../../HOWI/main.cp; sourceTree = "<group>"; };
+		124B5242280A07A300F38F46 /* How1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = How1; sourceTree = BUILT_PRODUCTS_DIR; };
 		124B5245280A07A300F38F46 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +43,8 @@
 		124B5239280A07A300F38F46 = {
 			isa = PBXGroup;
 			children = (
-				124B5244280A07A300F38F46 /* HowIteacher */,
+				12415D3E280FA1CB001B34AE /* main.cp */,
+				124B5244280A07A300F38F46 /* How1 */,
 				124B5243280A07A300F38F46 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +52,25 @@
 		124B5243280A07A300F38F46 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				124B5242280A07A300F38F46 /* HowIteacher */,
+				124B5242280A07A300F38F46 /* How1 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		124B5244280A07A300F38F46 /* HowIteacher */ = {
+		124B5244280A07A300F38F46 /* How1 */ = {
 			isa = PBXGroup;
 			children = (
 				124B5245280A07A300F38F46 /* main.cpp */,
 			);
-			path = HowIteacher;
+			path = How1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		124B5241280A07A300F38F46 /* HowIteacher */ = {
+		124B5241280A07A300F38F46 /* How1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 124B5249280A07A300F38F46 /* Build configuration list for PBXNativeTarget "HowIteacher" */;
+			buildConfigurationList = 124B5249280A07A300F38F46 /* Build configuration list for PBXNativeTarget "How1" */;
 			buildPhases = (
 				124B523E280A07A300F38F46 /* Sources */,
 				124B523F280A07A300F38F46 /* Frameworks */,
@@ -77,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = HowIteacher;
+			name = How1;
 			productName = HowIteacher;
-			productReference = 124B5242280A07A300F38F46 /* HowIteacher */;
+			productReference = 124B5242280A07A300F38F46 /* How1 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 124B523D280A07A300F38F46 /* Build configuration list for PBXProject "HowIteacher" */;
+			buildConfigurationList = 124B523D280A07A300F38F46 /* Build configuration list for PBXProject "How1" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				124B5241280A07A300F38F46 /* HowIteacher */,
+				124B5241280A07A300F38F46 /* How1 */,
 			);
 		};
 /* End PBXProject section */
@@ -120,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				124B5246280A07A300F38F46 /* main.cpp in Sources */,
+				12415D3F280FA1CB001B34AE /* main.cp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +258,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		124B523D280A07A300F38F46 /* Build configuration list for PBXProject "HowIteacher" */ = {
+		124B523D280A07A300F38F46 /* Build configuration list for PBXProject "How1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				124B5247280A07A300F38F46 /* Debug */,
@@ -263,7 +267,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		124B5249280A07A300F38F46 /* Build configuration list for PBXNativeTarget "HowIteacher" */ = {
+		124B5249280A07A300F38F46 /* Build configuration list for PBXNativeTarget "How1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				124B524A280A07A300F38F46 /* Debug */,
